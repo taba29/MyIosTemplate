@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Xcode build
+DerivedData/
+build/
+
+# Xcode user settings
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+*.xcuserdata/
+
+# SwiftPM
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Logs
+*.log
+
+# Signing / Secrets
+*.p12
+*.cer
+*.mobileprovision
