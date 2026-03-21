@@ -22,13 +22,14 @@ ViewModel + ObservableObject + WebSocket によるリアルタイム更新の基
 
 ## 🧱 アーキテクチャ
 
+```text
 core/
-└─ network/
-└─ WebSocketClient.swift
+├─ network/
+│  └─ WebSocketClient.swift
 feature/
 └─ commentviewer/
-├─ CommentViewerView.swift
-└─ CommentViewerViewModel.swift
+   ├─ CommentViewerView.swift
+   └─ CommentViewerViewModel.swift
 
 
 ---
